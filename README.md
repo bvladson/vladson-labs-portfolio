@@ -1,6 +1,6 @@
 # Portfólio — sistemas em produção
 
-Oito projetos construídos e mantidos em produção para duas empresas, entre 2026 e hoje:
+Nove projetos construídos e mantidos em produção para duas empresas, entre 2026 e hoje:
 o **Grupo MAG** (móveis corporativos) e a **VSB Soluções Técnicas** (elétrica, eletrônica e
 segurança). Todos rodam no mesmo servidor Ubuntu, descrito no último item desta lista.
 
@@ -42,6 +42,18 @@ A conversão de proposta em Pedido de Venda no ERP nasce de um *retrato congelad
 `sha256`, nunca do estado atual da tela — correção de uma brecha encontrada em homologação.
 
 `TanStack Start` `React` `TypeScript` `SQLite` `WAHA` `Docker`
+
+### [MAG CRM — app Android](https://github.com/bvladson/mag-crm-android) · *em produção*
+O CRM no celular da equipe comercial: atendimento por WhatsApp com foto, PDF e áudio, funil com
+a ficha do negócio, propostas, catálogo e clientes. Interface nativa em React Native, falando
+com o CRM por uma API própria, distribuída por APK fora da Google Play
+([baixar a 1.0.0](https://github.com/bvladson/mag-crm-android/releases/latest)).
+
+Nenhuma mensagem sai duas vezes: cada envio tem uma chave idempotente guardada com uma
+impressão SHA-256 — nunca com o texto. E o script de release abre o APK assinado e varre os
+mais de mil arquivos atrás de segredos antes de aprovar.
+
+`React Native` `Expo` `TypeScript` `Android`
 
 ### [Base de tarefas MAG](https://github.com/bvladson/mag-base) · *em produção*
 Sistema de tarefas da empresa a partir do Leantime 3.10, sem nenhuma marca, loja ou
