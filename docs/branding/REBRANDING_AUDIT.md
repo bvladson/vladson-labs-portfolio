@@ -54,7 +54,7 @@ nenhuma alteração não commitada, em nenhum dos 12.
 
 ## Dependências de produção sobre os nomes
 
-- **APK do Elofarol Mobile:** a produção serve o arquivo do disco da própria VPS
+- **APK do Elofarol CRM Mobile:** a produção serve o arquivo do disco da própria VPS
   (`/opt/mag-site/data/app-android`), **não** da release do GitHub. Renomear o repositório
   não interrompe a distribuição interna. Links externos apontados para a release passam a
   depender do redirecionamento automático do GitHub.
@@ -73,11 +73,11 @@ nenhuma alteração não commitada, em nenhum dos 12.
 
 ## Pendências encontradas, fora do escopo desta fase
 
-1. **Nenhum repositório declara `LICENSE`.** Pautelo deriva do Leantime (AGPL-3.0);
-   Entreliga, Operalvo Core e Docalume operam sobre ERPNext e Frappe (GPL-3.0); Vitracora
+1. **Nenhum repositório declara `LICENSE`.** Pautelo PM deriva do Leantime (AGPL-3.0);
+   Entreliga iPaaS, Operalvo Core e Docalume DMS operam sobre ERPNext e Frappe (GPL-3.0); Vitracora CMS
    usa WordPress (GPL-2.0-or-later). Derivados herdam obrigações. A escolha da licença é
    decisão do titular e não foi feita aqui.
-2. **AGPL §13 no Pautelo.** O README documenta a obrigação de oferecer o código-fonte da
+2. **AGPL §13 no Pautelo PM.** O README documenta a obrigação de oferecer o código-fonte da
    versão modificada aos usuários que acessam pela rede. Não há evidência de que o link
    esteja publicado no sistema em produção.
 3. **Titularidade.** A existência de um repositório na conta pessoal não comprova

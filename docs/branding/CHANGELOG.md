@@ -16,6 +16,6 @@ migração, convenções, plano, auditoria, reversão e material de LinkedIn.
 `C:\Users\VLADSON\Vladson-Labs\` com os novos nomes, preservando `.git`, branches e tags.
 
 **Pendências registradas.** Nenhum repositório declara `LICENSE`; obrigação do §13 da AGPL
-no Pautelo; titularidade a confirmar com as organizações atendidas.
+no Pautelo PM; titularidade a confirmar com as organizações atendidas.
 
 **Alterações em produção: 0.**

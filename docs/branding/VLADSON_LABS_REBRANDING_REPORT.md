@@ -29,7 +29,7 @@ dependem de decisão do titular.
 
 ## Inventário de projetos
 
-### Alvorumo — `alvorumo-v2`
+### Alvorumo BI — `alvorumo-v2`
 | | |
 |---|---|
 | Nome anterior | BIOMIE v2 · `biomie-v2` |
@@ -41,7 +41,7 @@ dependem de decisão do titular.
 | Testes | remote responde; links verificados; histórico íntegro |
 | **Status** | **CONCLUÍDO** |
 
-### Alvorumo v1 — Legacy Edition — `alvorumo-v1`
+### Alvorumo BI v1 — Legacy Edition — `alvorumo-v1`
 | | |
 |---|---|
 | Nome anterior | BIomie v1 · `biomie-v1` |
@@ -52,7 +52,7 @@ dependem de decisão do titular.
 | Testes | remote responde; histórico e tags íntegros |
 | **Status** | **CONCLUÍDO** |
 
-### Elofarol — `elofarol-web`
+### Elofarol CRM — `elofarol-web`
 | | |
 |---|---|
 | Nome anterior | MAG site + CRM · `mag-site-crm` |
@@ -63,7 +63,7 @@ dependem de decisão do titular.
 | Testes | remote responde; nome MAG preservado onde representa o cliente |
 | **Status** | **CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS** |
 
-### Elofarol Mobile — `elofarol-mobile`
+### Elofarol CRM Mobile — `elofarol-mobile`
 | | |
 |---|---|
 | Nome anterior | MAG CRM Android · `mag-crm-android` |
@@ -85,7 +85,7 @@ dependem de decisão do titular.
 | Observação | Autoria declarada como arquitetura e integração; modelos e motor de inferência são de terceiros |
 | **Status** | **CONCLUÍDO** |
 
-### Pautelo — `pautelo`
+### Pautelo PM — `pautelo`
 | | |
 |---|---|
 | Nome anterior | Base MAG · `mag-base` |
@@ -96,7 +96,7 @@ dependem de decisão do titular.
 | Pendência | AGPL-3.0: repositório sem `LICENSE` declarada; obrigação do §13 registrada |
 | **Status** | **CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS** |
 
-### Entreliga — `entreliga`
+### Entreliga iPaaS — `entreliga`
 | | |
 |---|---|
 | Nome anterior | VSB 360 · `vsb-360-integrations` |
@@ -117,7 +117,7 @@ dependem de decisão do titular.
 | Ação feita | Descrição atualizada com a identidade do produto e nota da pendência |
 | **Status** | **BLOQUEADO POR RISCO OPERACIONAL** |
 
-### Docalume — `docalume-ptbr`
+### Docalume DMS — `docalume-ptbr`
 | | |
 |---|---|
 | Nome anterior | VSB ERP pt-BR · `vsb-erp-ptbr` |
@@ -126,7 +126,7 @@ dependem de decisão do titular.
 | Testes | remote responde |
 | **Status** | **CONCLUÍDO** |
 
-### Vitracora — `vitracora-web`
+### Vitracora CMS — `vitracora-web`
 | | |
 |---|---|
 | Nome anterior | VSB site institucional · `vsb-site-institucional` |
@@ -135,7 +135,7 @@ dependem de decisão do titular.
 | Testes | remote responde; nome VSB preservado onde representa o cliente |
 | **Status** | **CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS** |
 
-### Fortearco — `fortearco-infrastructure`
+### Fortearco Infra — `fortearco-infrastructure`
 | | |
 |---|---|
 | Nome anterior | Infra VPS Ubuntu · `infra-vps-ubuntu` |
@@ -192,30 +192,30 @@ dependem de decisão do titular.
 
 | Projeto | Classificação |
 |---|---|
-| Alvorumo | CONCLUÍDO |
-| Alvorumo v1 — Legacy Edition | CONCLUÍDO |
+| Alvorumo BI | CONCLUÍDO |
+| Alvorumo BI v1 — Legacy Edition | CONCLUÍDO |
 | Sabelar AI | CONCLUÍDO |
-| Entreliga | CONCLUÍDO |
-| Docalume | CONCLUÍDO |
-| Fortearco | CONCLUÍDO |
+| Entreliga iPaaS | CONCLUÍDO |
+| Docalume DMS | CONCLUÍDO |
+| Fortearco Infra | CONCLUÍDO |
 | Vladson Labs Portfolio | CONCLUÍDO |
 | Perfil `bvladson` | CONCLUÍDO |
-| Elofarol | CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS |
-| Elofarol Mobile | CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS |
-| Pautelo | CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS |
-| Vitracora | CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS |
-| **Operalvo Core** | **BLOQUEADO POR RISCO OPERACIONAL** |
+| Elofarol CRM | CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS |
+| Elofarol CRM Mobile | CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS |
+| Pautelo PM | CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS |
+| Vitracora CMS | CONCLUÍDO COM IDENTIFICADORES LEGADOS PRESERVADOS |
+| **Operalvo ERP Core** | **BLOQUEADO POR RISCO OPERACIONAL** |
 
 ---
 
 ## Riscos residuais e pendências
 
-1. **Licenciamento.** Nenhum repositório declara `LICENSE`. Pautelo deriva do Leantime
-   (AGPL-3.0); Entreliga, Operalvo Core e Docalume operam sobre ERPNext e Frappe (GPL-3.0);
-   Vitracora usa WordPress (GPL-2.0-or-later). Derivados herdam obrigações. **A escolha da
+1. **Licenciamento.** Nenhum repositório declara `LICENSE`. Pautelo PM deriva do Leantime
+   (AGPL-3.0); Entreliga iPaaS, Operalvo Core e Docalume DMS operam sobre ERPNext e Frappe (GPL-3.0);
+   Vitracora CMS usa WordPress (GPL-2.0-or-later). Derivados herdam obrigações. **A escolha da
    licença é decisão do titular e não foi feita nesta fase.**
 
-2. **AGPL §13 no Pautelo.** O README documenta a obrigação de oferecer o código-fonte da
+2. **AGPL §13 no Pautelo PM.** O README documenta a obrigação de oferecer o código-fonte da
    versão modificada aos usuários que acessam pela rede. Não há evidência de que o link
    esteja publicado no sistema em produção.
 
@@ -223,7 +223,7 @@ dependem de decisão do titular.
    titularidade patrimonial do software desenvolvido no contexto das empresas atendidas.
    Confirmar antes de qualquer uso comercial.
 
-4. **Operalvo Core.** Renomeação pendente de inspeção dos 5 workflows de imagem Docker.
+4. **Operalvo ERP Core.** Renomeação pendente de inspeção dos 5 workflows de imagem Docker.
 
 5. **Redirecionamentos.** O GitHub redireciona os nomes antigos, mas a documentação já foi
    atualizada para os endereços novos. Não depender do redirecionamento permanentemente.

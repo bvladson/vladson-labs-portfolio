@@ -53,12 +53,12 @@ operacionais reais.
 
 Ordem recomendada — os três primeiros sustentam o posicionamento.
 
-1. **Alvorumo** — Business Intelligence & Analytics Platform
+1. **Alvorumo BI** — Business Intelligence & Analytics Platform
    Plataforma de inteligência de negócios multiempresa sobre ERP, com autorização aplicada no
    banco, camada semântica de métricas, motor de inteligência em Python e publicação com foto
    de produção como portão. *TypeScript · React · PostgreSQL · Python · Docker*
 
-2. **Elofarol** — CRM & Sales Platform
+2. **Elofarol CRM** — CRM & Sales Platform
    Plataforma comercial com site público, catálogo vindo do ERP, funil, propostas com versões
    e alçadas, atendimento por WhatsApp, e conversão de proposta em pedido a partir de um
    retrato congelado. Interfaces web e Android. *TypeScript · React · React Native · SQLite*
@@ -68,24 +68,24 @@ Ordem recomendada — os três primeiros sustentam o posicionamento.
    rede comprovado, para que dado comercial não saia para nuvem de terceiros.
    *Ollama · Node.js · Docker*
 
-4. **Entreliga** — Integration & Automation Hub
+4. **Entreliga iPaaS** — Integration & Automation Hub
    CRM, Helpdesk e automações sobre ERPNext, com central de acesso única e distribuição de
    leads. *ERPNext · Frappe · n8n · Python*
 
-5. **Fortearco** — Infrastructure & DevOps Engineering
+5. **Fortearco Infra** — Infrastructure & DevOps Engineering
    Arquitetura e operação de um servidor Ubuntu hospedando nove sistemas em produção, com
    janela de operação verificada por código e backup cifrado com restauração testada.
    *Ubuntu · Docker · nginx · Bash*
 
-6. **Vitracora** — Digital Experience Platform
+6. **Vitracora CMS** — Digital Experience Platform
    Sites institucionais com CMS headless, captação de leads e auditoria automatizada de
    acessibilidade e consentimento no site servido. *TypeScript · React · WordPress*
 
-7. **Docalume** — Document Engineering & Localization
+7. **Docalume DMS** — Document Engineering & Localization
    Localização documental para ERPNext, com testes que comparam a saída renderizada e o PDF
    gerado no servidor. *Frappe · Jinja · Python*
 
-8. **Pautelo** — Project & Task Management
+8. **Pautelo PM** — Project & Task Management
    Camada de personalização e localização completa sobre o Leantime, gerada por scripts
    idempotentes. *PHP · MariaDB · Python*
 
@@ -105,8 +105,8 @@ Ordem recomendada — os três primeiros sustentam o posicionamento.
 > de negócios, CRM, integração entre sistemas, IA executada no próprio servidor, e a
 > infraestrutura que sustenta tudo isso.
 >
-> Cada um ganhou nome próprio: Alvorumo, Elofarol, Sabelar AI, Entreliga, Pautelo, Operalvo
-> Core, Docalume, Vitracora e Fortearco.
+> Cada um ganhou nome próprio: Alvorumo BI, Elofarol CRM, Sabelar AI, Entreliga iPaaS, Pautelo PM, Operalvo ERP Core
+> Core, Docalume DMS, Vitracora CMS e Fortearco Infra.
 >
 > O que me interessa não é a lista de tecnologias, é o que elas resolvem: número que bate,
 > dado em que se pode confiar, e publicação que tem caminho de volta.

@@ -21,7 +21,7 @@ registro dos produtos, mapa de migração, convenções, auditoria e plano de re
 
 ## Business Intelligence & Data
 
-### [Alvorumo](https://github.com/bvladson/alvorumo-v2) · *em produção*
+### [Alvorumo BI](https://github.com/bvladson/alvorumo-v2) · *em produção*
 **Business Intelligence & Analytics Platform** — *Clareza para decidir. Inteligência para crescer.*
 
 **O problema.** A operação comercial de cinco empresas vivia dentro do ERP, mas o ERP não
@@ -44,7 +44,7 @@ auditoria. Publicação com foto dos números antes e depois como portão de rel
 **Minha contribuição.** Desenvolvimento original — arquitetura, modelagem, implementação,
 implantação e operação.
 
-### [Alvorumo v1 — Legacy Edition](https://github.com/bvladson/alvorumo-v1) · *desativado em 23/10/2026*
+### [Alvorumo BI v1 — Legacy Edition](https://github.com/bvladson/alvorumo-v1) · *desativado em 23/10/2026*
 **Business Intelligence & Analytics Platform**
 
 A primeira geração, em PHP 8 sem framework — decisão deliberada: precisava começar em
@@ -66,7 +66,7 @@ interromper a operação.
 
 ## Business Software
 
-### [Elofarol](https://github.com/bvladson/elofarol-web) · *em produção*
+### [Elofarol CRM](https://github.com/bvladson/elofarol-web) · *em produção*
 **CRM & Sales Platform** — *Conecte pessoas. Conduza negócios.*
 
 **O problema.** A equipe comercial trabalhava entre o ERP, o WhatsApp pessoal e planilhas de
@@ -86,10 +86,10 @@ servido. Endereços de produto são permanentes: renomear no ERP não quebra lin
 
 **Minha contribuição.** Desenvolvimento original.
 
-### [Elofarol Mobile](https://github.com/bvladson/elofarol-mobile) · *em uso interno*
+### [Elofarol CRM Mobile](https://github.com/bvladson/elofarol-mobile) · *em uso interno*
 **CRM & Sales Platform**
 
-A interface Android do Elofarol — segunda interface do mesmo ecossistema, não um produto
+A interface Android do Elofarol CRM — segunda interface do mesmo ecossistema, não um produto
 separado. Aplicativo nativo em React Native, distribuído internamente, compatível com a
 instalação existente.
 
@@ -97,7 +97,7 @@ instalação existente.
 
 **Minha contribuição.** Desenvolvimento original.
 
-### [Pautelo](https://github.com/bvladson/pautelo) · *em produção*
+### [Pautelo PM](https://github.com/bvladson/pautelo) · *em produção*
 **Project & Task Management** — *Do planejamento à execução.*
 
 **O problema.** A empresa precisava de gestão de tarefas em português, sem a marca, a loja de
@@ -123,7 +123,7 @@ Aplicativo Frappe próprio com campos, permissões e lógica de negócio que ada
 
 **Minha contribuição.** Extensões e personalizações. ERPNext e Frappe são de terceiros (GPL-3.0).
 
-### [Docalume](https://github.com/bvladson/docalume-ptbr) · *em produção*
+### [Docalume DMS](https://github.com/bvladson/docalume-ptbr) · *em produção*
 **Document Engineering & Localization** — *Precisão em cada documento.*
 
 **O problema.** Os orçamentos saíam em inglês mesmo com o ERP configurado em português. Cada
@@ -164,7 +164,7 @@ repositório.
 **Minha contribuição.** Arquitetura, integração, isolamento e operação. Os modelos de
 linguagem e o motor de inferência são de terceiros e não são de minha autoria.
 
-### [Entreliga](https://github.com/bvladson/entreliga) · *em produção · repositório privado*
+### [Entreliga iPaaS](https://github.com/bvladson/entreliga) · *em produção · repositório privado*
 **Integration & Automation Hub** — *Tudo conectado. Tudo fluindo.*
 
 **O problema.** Sistemas empresariais que não se falam, cada um com seu login.
@@ -182,7 +182,7 @@ n8n são de terceiros.
 
 ## Digital Experience & Infrastructure
 
-### [Vitracora](https://github.com/bvladson/vitracora-web) · *em produção*
+### [Vitracora CMS](https://github.com/bvladson/vitracora-web) · *em produção*
 **Digital Experience Platform** — *Presença digital que gera resultados.*
 
 **O problema.** Presença digital que precisa captar oportunidade sem prometer o que não se
@@ -201,7 +201,7 @@ de clientes ou certificação que não possa ser comprovada.
 
 **Minha contribuição.** Desenvolvimento original do site e das auditorias.
 
-### [Fortearco](https://github.com/bvladson/fortearco-infrastructure)
+### [Fortearco Infra](https://github.com/bvladson/fortearco-infrastructure)
 **Infrastructure & DevOps Engineering** — *A estrutura por trás da inovação.*
 
 **O problema.** Nove sistemas em produção, de duas empresas, em **um** servidor de 2 vCPUs e

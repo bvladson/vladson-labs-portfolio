@@ -10,7 +10,7 @@
   "produtos": [
     {
       "nome_original": "BIomie v1",
-      "nome_comercial": "Alvorumo v1 — Legacy Edition",
+      "nome_comercial": "Alvorumo BI v1 — Legacy Edition",
       "slug": "alvorumo-v1",
       "repositorio": "alvorumo-v1",
       "url_anterior": "https://github.com/bvladson/biomie-v1",
@@ -32,7 +32,7 @@
     },
     {
       "nome_original": "BIOMIE v2",
-      "nome_comercial": "Alvorumo",
+      "nome_comercial": "Alvorumo BI",
       "slug": "alvorumo-v2",
       "repositorio": "alvorumo-v2",
       "url_anterior": "https://github.com/bvladson/biomie-v2",
@@ -54,7 +54,7 @@
     },
     {
       "nome_original": "MAG site + CRM",
-      "nome_comercial": "Elofarol",
+      "nome_comercial": "Elofarol CRM",
       "slug": "elofarol-web",
       "repositorio": "elofarol-web",
       "url_anterior": "https://github.com/bvladson/mag-site-crm",
@@ -76,7 +76,7 @@
     },
     {
       "nome_original": "MAG CRM Android",
-      "nome_comercial": "Elofarol Mobile",
+      "nome_comercial": "Elofarol CRM Mobile",
       "slug": "elofarol-mobile",
       "repositorio": "elofarol-mobile",
       "url_anterior": "https://github.com/bvladson/mag-crm-android",
@@ -84,8 +84,8 @@
       "pasta_local_original": "C:\\Users\\VLADSON\\Portfolio\\mag-crm-android",
       "pasta_local_atual": "C:\\Users\\VLADSON\\Vladson-Labs\\elofarol-mobile",
       "categoria": "Customer Relationship Management & Sales Platform",
-      "descricao_pt": "Interface movel do Elofarol para Android, distribuida internamente. Nao e um produto separado: e a segunda interface do mesmo ecossistema, compativel com a instalacao existente.",
-      "descricao_en": "Elofarol's Android interface, distributed internally. Not a separate product: it is the second interface of the same ecosystem, compatible with the existing installation.",
+      "descricao_pt": "Interface movel do Elofarol CRM para Android, distribuida internamente. Nao e um produto separado: e a segunda interface do mesmo ecossistema, compativel com a instalacao existente.",
+      "descricao_en": "Elofarol CRM's Android interface, distributed internally. Not a separate product: it is the second interface of the same ecosystem, compatible with the existing installation.",
       "slogan": "Conecte pessoas. Conduza negocios.",
       "tecnologias_verificadas": ["React Native", "Expo"],
       "status_operacional": "Versao 1.0.0 em uso interno desde 25/11/2026.",
@@ -110,7 +110,7 @@
       "descricao_en": "Artificial intelligence infrastructure running on the organisation's own server, so business applications can use language models without sending commercial data to third-party clouds. Network isolation evidenced by archived probes.",
       "slogan": "Inteligencia que trabalha com voce.",
       "tecnologias_verificadas": ["Ollama", "Node.js", "Docker"],
-      "status_operacional": "Fase 3 concluida em 07/11/2026 (instalado e isolado). Piloto do assistente ativo no Alvorumo desde 12/11/2026.",
+      "status_operacional": "Fase 3 concluida em 07/11/2026 (instalado e isolado). Piloto do assistente ativo no Alvorumo BI desde 12/11/2026.",
       "relacoes": ["alvorumo-v2 (consumidor)", "fortearco-infrastructure (hospedagem)"],
       "participacao_autoral": "Arquitetura, integracao, isolamento e operacao. Os modelos de linguagem e o motor de inferencia sao de terceiros e nao sao de autoria do criador.",
       "licencas_aplicaveis": ["Ollama e os modelos possuem licencas proprias, preservadas e nao reivindicadas"],
@@ -120,7 +120,7 @@
     },
     {
       "nome_original": "Base MAG",
-      "nome_comercial": "Pautelo",
+      "nome_comercial": "Pautelo PM",
       "slug": "pautelo",
       "repositorio": "pautelo",
       "url_anterior": "https://github.com/bvladson/mag-base",
@@ -142,7 +142,7 @@
     },
     {
       "nome_original": "VSB 360",
-      "nome_comercial": "Entreliga",
+      "nome_comercial": "Entreliga iPaaS",
       "slug": "entreliga",
       "repositorio": "entreliga",
       "url_anterior": "https://github.com/bvladson/vsb-360-integrations",
@@ -164,7 +164,7 @@
     },
     {
       "nome_original": "vsb_core",
-      "nome_comercial": "Operalvo Core",
+      "nome_comercial": "Operalvo ERP Core",
       "slug": "operalvo-core",
       "repositorio": "operalvo-core",
       "url_anterior": "https://github.com/bvladson/vsb_core",
@@ -186,7 +186,7 @@
     },
     {
       "nome_original": "VSB ERP pt-BR",
-      "nome_comercial": "Docalume",
+      "nome_comercial": "Docalume DMS",
       "slug": "docalume-ptbr",
       "repositorio": "docalume-ptbr",
       "url_anterior": "https://github.com/bvladson/vsb-erp-ptbr",
@@ -208,7 +208,7 @@
     },
     {
       "nome_original": "VSB site institucional",
-      "nome_comercial": "Vitracora",
+      "nome_comercial": "Vitracora CMS",
       "slug": "vitracora-web",
       "repositorio": "vitracora-web",
       "url_anterior": "https://github.com/bvladson/vsb-site-institucional",
@@ -230,7 +230,7 @@
     },
     {
       "nome_original": "Infra VPS Ubuntu",
-      "nome_comercial": "Fortearco",
+      "nome_comercial": "Fortearco Infra",
       "slug": "fortearco-infrastructure",
       "repositorio": "fortearco-infrastructure",
       "url_anterior": "https://github.com/bvladson/infra-vps-ubuntu",
@@ -299,7 +299,7 @@
   "pendencias_registradas": [
     {
       "tipo": "Propriedade intelectual",
-      "descricao": "Nenhum dos repositorios declara arquivo LICENSE. Projetos derivados de software sob copyleft (Pautelo/Leantime AGPL-3.0; Entreliga, Operalvo Core e Docalume sobre ERPNext e Frappe GPL-3.0; Vitracora com WordPress GPL-2.0) herdam obrigacoes de licenciamento. A escolha e a declaracao da licenca sao decisao do titular e nao foram realizadas nesta fase.",
+      "descricao": "Nenhum dos repositorios declara arquivo LICENSE. Projetos derivados de software sob copyleft (Pautelo PM/Leantime AGPL-3.0; Entreliga iPaaS, Operalvo Core e Docalume DMS sobre ERPNext e Frappe GPL-3.0; Vitracora CMS com WordPress GPL-2.0) herdam obrigacoes de licenciamento. A escolha e a declaracao da licenca sao decisao do titular e nao foram realizadas nesta fase.",
       "acao_recomendada": "Definir e declarar a licenca de cada repositorio, preservando as licencas e atribuicoes dos componentes de terceiros."
     },
     {
